@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #000000;
+    color: #e7bf8c;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: 0.3s;
+    font-weight: 400;
+    color: #e8c08c;
+}
+
+.nav-item {
+    color: #e7bf8c;
+    width: max-content;
+    margin: 30px 7px;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e8c08c;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+    color: #fff;
+}
+
+.img-fluid {
+    width: 45%;
+}
