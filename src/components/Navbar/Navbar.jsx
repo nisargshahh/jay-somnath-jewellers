@@ -1,7 +1,7 @@
 import "./Navbar.css";
 
 function NavBar() {
-  const LogoURL = "../../src/assets/Website_photos/Website_photos/all.png";
+  const LogoURL = "../../assets/Website_photos/Website_photos/all.png";
   return (
     <>
       <link
