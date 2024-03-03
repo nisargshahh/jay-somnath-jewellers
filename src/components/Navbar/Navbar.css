@@ -1,6 +1,17 @@
-.navbar {
-    background-color: #000000;
-    color: #e7bf8c;
+.whole-navbar {
+    margin: 0;
+    padding: auto;
+    background: #000;
+}
+
+#main-nav-logo {
+    width: 20vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-nav-logo {
+        width: 35vh;
+    }
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -14,6 +25,10 @@
     color: #e7bf8c;
     width: max-content;
     margin: 30px 7px;
+}
+
+#nav-list-nice {
+    margin-left: auto;
 }
 
 .navbar-nav .nav-item .nav-link::before {
@@ -31,8 +46,4 @@
 .navbar-nav .nav-item .nav-link:hover::before {
     width: 100%;
     color: #fff;
-}
-
-.img-fluid {
-    width: 45%;
 }
